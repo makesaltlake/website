@@ -1,0 +1,20 @@
+
+.subhead {
+  padding-bottom: 0;
+  margin-bottom: 9px;
+}
+.subhead h1 {
+  font-size: 54px;
+}
+
+.preview {
+  padding-top: 100px;
+}
+
+.links {
+  margin-bottom: 20px;
+}
+
+.links a {
+  padding-right: 2em;
+}
