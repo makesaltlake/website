@@ -1,5 +1,5 @@
 ---
-title: Calendar test
+title: Calendar test 2
 author: eidosabi
 layout: post
 event-name: Name of Event
