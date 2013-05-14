@@ -15,5 +15,6 @@ tags:
 - calendar
 - events
 ---
-Feel free to mix <b>HTML</b> and *Markdown* sytax
+Feel free to mix <b>HTML</b> and *Markdown* syntax
+
 
