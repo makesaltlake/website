@@ -15,6 +15,6 @@ tags:
 - calendar
 - events
 ---
-Feel free to mix <b>HTML</b> and *Markdown* syntax
+Feel free to mix <b>HTML</b> and *Markdown* syntax.  Here we're trying to get a calendar system, based on [Seattle Hacks]'[http://seattlehacks.com/calendar/], up and running.
 
 
