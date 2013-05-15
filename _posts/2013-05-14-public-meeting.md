@@ -4,8 +4,8 @@ author: Duane Johnson
 layout: post
 event-name: Public Meeting
 event-allday: false
-event-start: 2013-05-14 19:00:00
-event-end: 2013-05-14 23:00:00
+event-start: 2013-05-15 19:00:00
+event-end: 2013-05-15 23:00:00
 event-venue: Wright Building
 event-address: 30 E Kensington Ave, SLC, UT
 event-website: http://EnjiGo.com
