@@ -15,3 +15,4 @@ tags:
 - events
 ---
 
+This non-profit is all about transparency. If you'd like to attend the board meeting and see what we're thinking and planning, come on down!
