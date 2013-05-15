@@ -16,3 +16,5 @@ tags:
 ---
 
 This non-profit is all about transparency. If you'd like to attend the board meeting and see what we're thinking and planning, come on down!
+
+We'll meet from 6:00 PM to 7:00 PM, May 15th. Public demo night follows.
