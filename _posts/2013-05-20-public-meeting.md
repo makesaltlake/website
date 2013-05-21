@@ -1,5 +1,5 @@
 ---
-title: Public Meeting
+title: Public Meeting, Wednesday 7PM
 author: Duane Johnson
 layout: post
 event-name: Public Meeting
@@ -14,7 +14,7 @@ tags:
 - events
 ---
 
-Our first public meeting was pretty awesome. Tyler Gilbert, a local microcontroller operating system author, demoed his CoActionOS software and the corresponding CoAction Hero that he's been building for the past 3 years. What's really cool is that he has a (kickstarter campaign)[http://www.kickstarter.com/projects/966383008/coaction-hero-32-bit-open-source-arm-cortex-m3-boa] going on right now that you should totally support!
+Our first public meeting was pretty awesome. Tyler Gilbert, a local microcontroller operating system author, demoed his CoActionOS software and the corresponding CoAction Hero that he's been building for the past 3 years. What's really cool is that he has a [kickstarter campaign](http://www.kickstarter.com/projects/966383008/coaction-hero-32-bit-open-source-arm-cortex-m3-boa) going on right now that you should totally support!
 
 We'll have our 2nd public meeting this Wednesday at 7:00 PM. Come and see what we're making!
 
