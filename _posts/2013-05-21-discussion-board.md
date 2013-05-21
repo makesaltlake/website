@@ -8,7 +8,7 @@ tags:
 
 Hey, we have a discussion board now:
 
-http://discuss.enjigo.com/
+[http://discuss.enjigo.com/](http://discuss.enjigo.com/)
 
 It uses the fantastic new software called Discourse from the same guys that built Stack Overflow.
 
