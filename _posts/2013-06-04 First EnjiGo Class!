@@ -1,0 +1,94 @@
+---
+title: First EnjiGo Class!
+author: canandaduane
+layout: post
+event-name: Arduino Game Maker Class
+event-allday: false
+event-start: 2013-06-04 18:30:00
+event-end: 2013-06-04 20:30:00
+event-venue: EnjiGo Makerspace
+event-address: Wright Building on 30 East Kensington Ave (near SLCC; between State and Main, at 15th South in SLC)
+event-website: http://discuss.enjigo.com/t/feedback-wanted-arduino-game-maker-class/18
+tags:
+- Arduino
+- games
+- education
+- class
+- calendar
+- events
+---
+**Introducing the Arduino Game Maker Class ($130 total)**
+
+Let's make an Arduino microcontroller into a little hand-held gaming machine! In 4 weeks, you'll learn to solder and build your own game hardware--we'll use a full color mini LCD display and a Teensy 3.0 (Arduino-compatible) microcontroller as the core, and you can add peripherals like knobs and switches.
+
+Each week, you'll come away with a working game (Musical Lights, Simon, Pong, and Etch-a-sketch) on your new upgraded hardware. You'll also learn some programming basics by starting with a working game and then modifying and improving it. On your final week, if you'd like to start building your own game instead of Etch-a-sketch, feel free! Get as far as you can that evening and come back later for help from the community (membership is $50 per month).
+
+**Summary:**
+
+- The class is 4 weeks long
+- Using your Arduino, you'll come away with a different video game each week
+- Cost of materials is $50 (microcontroller, LCD panel, circuit board, batteries, etc.)
+- Each class is $20, 4 classes total (classes are free to EnjiGo members)
+- We meet each Tuesday at 7:00 PM
+- There is a "catch up" lab on Wednesday nights at 8:00 PM
+- Bring your own laptop, or use one supplied by the space. We'll use our computers to program the Arduino-compatible microcontrollers.
+
+**Class 1: Intro**
+
+- GAME: Musical Lights
+- get the Arduino Game kit [1]
+- demo working games
+- learn how to program the Teensy microcontroller using the Arduino IDE
+  - connect Teensy to Arduino IDE, load BLINK program
+- connect battery pack to Teensy
+
+**Class 2: Soldering**
+
+- GAME: Simon
+- solder to board:
+  - headers for Teensy
+  - RGB Color LED
+  - wiring to connect LED to Teensy
+  - 4 buttons & 4 resistors
+  - wiring to connect buttons & resistors to Teensy
+- load SIMON program
+- tweak it to make it more fun?
+
+**Class 3: Programming**
+
+- GAME: Pong
+- solder to board:
+  - headers for LCD panel
+  - wiring to connect LCD panel to Teensy
+  - 2 potentiometers (aka dial, knob)
+  - wiring to connect potentiometers
+- load ONE-PLAYER-PONG program
+- can you write two player pong?
+
+**Class 4: To Infinity and Beyond**
+
+- GAME (pick one):
+  - Etch-a-sketch
+  - Your own game*
+- load MONOCHROME-ETCH-A-SKETCH
+- can you make a color Etch-a-sketch program? make it more fun?
+- *write your own game (with some help if you need it)
+
+
+[1] The $50 Arduino Game kit includes:
+
+- Teensy 3.0 (Arduino compatible microcontroller)
+  - http://www.pjrc.com/teensy/index.html
+- 128x160 pixel LCD panel w/ 262K colors
+  - http://www.sainsmart.com/arduino-compatibles/module/lcd-module/sainsmart-1-8-spi-lcd-module-with-microsd-led-backlight-for-arduino-mega-atmel-atmega.html
+- 3" x 4" PCB circuit board
+- 2 potentiometers (10k ohm)
+- 4 buttons & 4 resistors (10k ohm)
+- 1 RGB Color LED
+- wires
+- headers for Teensy 3.0
+- headers for LCD panel
+- 4x AA batteries
+- battery pack for 4 AA batteries, w/ wiring and connectors
+
+
