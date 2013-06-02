@@ -17,6 +17,9 @@ tags:
 - calendar
 - events
 ---
+
+<iframe width="500" height="281" src="http://www.youtube.com/embed/mCfiDnE51Q8?rel=0" frameborder="0" allowfullscreen></iframe>
+
 **Introducing the Arduino Game Maker Class ($130 total)**
 
 Let's make an Arduino microcontroller into a little hand-held gaming machine! In 4 weeks, you'll learn to solder and build your own game hardware--we'll use a full color mini LCD display and a Teensy 3.0 (Arduino-compatible) microcontroller as the core, and you can add peripherals like knobs and switches.
