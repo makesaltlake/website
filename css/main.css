@@ -18,6 +18,16 @@
   padding-right: 2em;
 }
 
+.eventdate {
+  padding-left: 0.25em;
+}
+
+.postdate {
+  color: #bbb;
+  font-size: 10pt;
+  padding-left: 0.5em;
+}
+
 #footer {
   margin-top: 2em;
 }
