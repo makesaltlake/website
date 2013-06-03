@@ -15,7 +15,7 @@ title: EnjiGo Makerspace
     {% for post in site.posts %}
       <li>
         <a href="{{ post.url }}">{{ post.title }}</a>
-        {% if post.event-name %}<span class="eventdate">({{ post.event-start | date_to_string}})</span>{% endif %}
+        {% if post.event-name %}<span class="eventdate">({{ post.event-start | date_to_long_string }})</span>{% endif %}
         <span class="postdate"> posted {{ post.date | date_to_string }}</span>  
       </li>
     {% endfor %}
