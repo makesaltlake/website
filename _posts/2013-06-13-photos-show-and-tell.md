@@ -7,9 +7,9 @@ tags:
 - photos
 ---
 
-Check out the incredible projects from yesterday's Show and Tell!
-
-<div class="">
+Check out some of the incredible projects from yesterday's Show and Tell!
+<style>.photos > img { padding-bottom: 5px; }</style>
+<div class="photos">
 <img src="http://farm6.staticflickr.com/5502/9031665636_5bc6a6b6fe.jpg">
 <img src="http://farm3.staticflickr.com/2827/9029468877_2738071f78.jpg">
 <img src="http://farm3.staticflickr.com/2809/9031681756_dc0e5b98ac.jpg">
