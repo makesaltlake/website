@@ -72,10 +72,10 @@ Each week, you'll come away with a working game (Musical Lights, Simon, Pong, an
 
 - GAME (pick one):
   - Etch-a-sketch
-  - Your own game*
+  - Your own game
 - load MONOCHROME-ETCH-A-SKETCH
 - can you make a color Etch-a-sketch program? make it more fun?
-- *write your own game (with some help if you need it)
+- write your own game (with some help if you need it)
 
 
 [1] The $50 Arduino Game kit includes:
