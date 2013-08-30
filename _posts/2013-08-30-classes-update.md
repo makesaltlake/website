@@ -1,5 +1,9 @@
 ---
 published: false
+author: canadaduane
+layout: post
+tags: 
+  - news
 ---
 
 ## Classes Update
