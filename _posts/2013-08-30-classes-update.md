@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 author: canadaduane
 layout: post
 tags: 
