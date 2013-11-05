@@ -1,11 +1,20 @@
 ---
 published: true
+title: Inkscape and GIMP Class
+event-name: Show and Tell
+event-allday: false
+event-start: 2013-11-11 18:00:00
+event-end: 2013-12-09 20:00:00
+event-venue: EnjiGo Makerspace
+event-address: 30 East Kensington Ave, SLC, UT
+event-website: http://enjigo.com/
 author: eidosabi
 layout: post
 tags: 
   - news
   - events
   - classes
+  - calendar
 ---
 
 Our first graphics class is going to be running Monday's 6-8pm from Nov 11 through Dec 9th.
