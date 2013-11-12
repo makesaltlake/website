@@ -114,11 +114,74 @@ title: How to Join
     <div class="span8">
       <h3>Bitcoin</h3>
       <p>We support payment with bitcoin! Click on the button on the right to donate $50 via bitcoin.</p>
+      <h4>Make a Donation</h4>
+      <!-- flexible donation form -->
+      <form id="makeDonation" action="https://bitpay.com/checkout" method="post" onsubmit="return bp.validateMobileCheckoutForm($('#makeDonation'));">
+        <input name="action" type="hidden" value="checkout">
+        <fieldset class="phone-form well form-horizontal" style="margin-top: 5px;">
+          <ul>
+            <li id="orderID" class="control-group">
+              <label class="control-label" style="width: 40px">Email:</label>
+              <div class="controls" style="margin-left: 60px">
+                <input name="orderID" type="email" class="input input-xlarge" placeholder="Email address (optional)" maxlength=50 autocapitalize=off autocorrect=off><br>
+              </div>
+            </li>
+            <li id="price" class="control-group">
+              <label class="control-label" style="width: 40px">Amount:</label>
+              <div class="controls" style="margin-left: 60px">
+                <input name="price" type="number" class="noscroll" value="10.00" placeholder="Amount" maxlength="10" min="0.01" step="0.01" style="width: 39%"  />
+                <select name="currency" value="" style="width: 49%" >
+                  <option value="USD" selected="selected">USD</option>
+                  <option value="BTC">BTC</option>
+                  <option value="EUR">EUR</option>
+                  <option value="GBP">GBP</option>
+                  <option value="AUD">AUD</option>
+                  <option value="BGN">BGN</option>
+                  <option value="BRL">BRL</option>
+                  <option value="CAD">CAD</option>
+                  <option value="CHF">CHF</option>
+                  <option value="CNY">CNY</option>
+                  <option value="CZK">CZK</option>
+                  <option value="DKK">DKK</option>
+                  <option value="HKD">HKD</option>
+                  <option value="HRK">HRK</option>
+                  <option value="HUF">HUF</option>
+                  <option value="IDR">IDR</option>
+                  <option value="ILS">ILS</option>
+                  <option value="INR">INR</option>
+                  <option value="JPY">JPY</option>
+                  <option value="KRW">KRW</option>
+                  <option value="LTL">LTL</option>
+                  <option value="LVL">LVL</option>
+                  <option value="MXN">MXN</option>
+                  <option value="MYR">MYR</option>
+                  <option value="NOK">NOK</option>
+                  <option value="NZD">NZD</option>
+                  <option value="PHP">PHP</option>
+                  <option value="PLN">PLN</option>
+                  <option value="RON">RON</option>
+                  <option value="RUB">RUB</option>
+                  <option value="SEK">SEK</option>
+                  <option value="SGD">SGD</option>
+                  <option value="THB">THB</option>
+                  <option value="TRY">TRY</option>
+                  <option value="ZAR">ZAR</option>
+                </select/>
+              </div>
+            </li>
+          </ul>
+          <br>
+          <input type="hidden" name="data" value="ttX98zIIMyN6LCN9k9hcCSQgqxl81V1Zv4vC+JBYN6+TF+jw1tQ8h3g7oyzXTzRh3qnwI0phSmx16TUbh+DBuQC6xecYszo8Y29NOKPDA+2+CS44UDjjdsAME/DIuvbK6792rcyrsQ8dP6oXGE186cz+2O0BXbIUpJowZOK3BxNVFH0Ab8gNtnW7tytcIImC9dfFExSc6H7SPCP+57GHz8fGGVXArVDOhr15UoopzEU=">
+          <div style="margin: auto; width: 100%; text-align: center">
+            <input name="submit" src="/img/donate-md.png" type="image" style="width: auto" alt="BitPay, the easy way to pay with bitcoins." border="0">
+          </div>
+        </fieldset>
+      </form>
     </div>
     <div class="span4">
       <!-- $50 monthly membership -->
       <div class="bitpay-box">
-        <h3>$50 - 24/7 Membership</h3>
+        <h4>$50 - 24/7 Membership</h4>
         <form action="https://bitpay.com/checkout" method="post" >
           <input type="hidden" name="action" value="checkout" />
           <input type="hidden" name="posData" value="" />
@@ -129,7 +192,7 @@ title: How to Join
 
       <!-- $200 monthly desk membership -->
       <div class="bitpay-box">
-        <h3>$200 - 24/7 Desk Membership</h3>
+        <h4>$200 - 24/7 Desk Membership</h4>
         <form action="https://bitpay.com/checkout" method="post" >
           <input type="hidden" name="action" value="checkout" />
           <input type="hidden" name="posData" value="" />
@@ -137,72 +200,6 @@ title: How to Join
           <input type="image" src="https://bitpay.com/img/button8.png" border="0" name="submit" alt="BitPay, the easy way to pay with bitcoins." >
         </form>
       </div>
-
-      <!-- flexible donation membership -->
-      <div class="bitpay-box">
-        <h3>Make a Donation</h3>
-        <form id="makeDonation" action="https://bitpay.com/checkout" method="post" onsubmit="return bp.validateMobileCheckoutForm($('#makeDonation'));">
-          <input name="action" type="hidden" value="checkout">
-          <fieldset class="phone-form well form-horizontal" style="margin-top: 5px;">
-            <ul>
-              <li id="orderID" class="control-group">
-                <label class="control-label" style="width: 40px">Email:</label>
-                <div class="controls" style="margin-left: 60px">
-                  <input name="orderID" type="email" class="input input-xlarge" placeholder="Email address (optional)" maxlength=50 autocapitalize=off autocorrect=off><br>
-                </div>
-              </li>
-              <li id="price" class="control-group">
-                <label class="control-label" style="width: 40px">Amount:</label>
-                <div class="controls" style="margin-left: 60px">
-                  <input name="price" type="number" class="noscroll" value="10.00" placeholder="Amount" maxlength="10" min="0.01" step="0.01" style="width: 39%"  />
-                  <select name="currency" value="" style="width: 49%" >
-                    <option value="USD" selected="selected">USD</option>
-                    <option value="BTC">BTC</option>
-                    <option value="EUR">EUR</option>
-                    <option value="GBP">GBP</option>
-                    <option value="AUD">AUD</option>
-                    <option value="BGN">BGN</option>
-                    <option value="BRL">BRL</option>
-                    <option value="CAD">CAD</option>
-                    <option value="CHF">CHF</option>
-                    <option value="CNY">CNY</option>
-                    <option value="CZK">CZK</option>
-                    <option value="DKK">DKK</option>
-                    <option value="HKD">HKD</option>
-                    <option value="HRK">HRK</option>
-                    <option value="HUF">HUF</option>
-                    <option value="IDR">IDR</option>
-                    <option value="ILS">ILS</option>
-                    <option value="INR">INR</option>
-                    <option value="JPY">JPY</option>
-                    <option value="KRW">KRW</option>
-                    <option value="LTL">LTL</option>
-                    <option value="LVL">LVL</option>
-                    <option value="MXN">MXN</option>
-                    <option value="MYR">MYR</option>
-                    <option value="NOK">NOK</option>
-                    <option value="NZD">NZD</option>
-                    <option value="PHP">PHP</option>
-                    <option value="PLN">PLN</option>
-                    <option value="RON">RON</option>
-                    <option value="RUB">RUB</option>
-                    <option value="SEK">SEK</option>
-                    <option value="SGD">SGD</option>
-                    <option value="THB">THB</option>
-                    <option value="TRY">TRY</option>
-                    <option value="ZAR">ZAR</option>
-                  </select/>
-                </div>
-              </li>
-            </ul>
-            <br>
-            <input type="hidden" name="data" value="ttX98zIIMyN6LCN9k9hcCSQgqxl81V1Zv4vC+JBYN6+TF+jw1tQ8h3g7oyzXTzRh3qnwI0phSmx16TUbh+DBuQC6xecYszo8Y29NOKPDA+2+CS44UDjjdsAME/DIuvbK6792rcyrsQ8dP6oXGE186cz+2O0BXbIUpJowZOK3BxNVFH0Ab8gNtnW7tytcIImC9dfFExSc6H7SPCP+57GHz8fGGVXArVDOhr15UoopzEU=">
-            <div style="margin: auto; width: 100%; text-align: center">
-              <input name="submit" src="/img/donate-md.png" type="image" style="width: auto" alt="BitPay, the easy way to pay with bitcoins." border="0">
-            </div>
-          </fieldset>
-        </form>      
-      </div>  
   </div>
   
   <hr>
