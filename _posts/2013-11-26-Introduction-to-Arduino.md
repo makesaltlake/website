@@ -23,11 +23,11 @@ This will be an all-inclusive “hands-on” mentored course. Come join us and h
 
 The cost will be $120, plus any processing fees. This includes a 1 month membership to the Maker Space, your very own Arduino, and all materials for the class. Payment can be made via 
 
-- <a href="http://enjigo.com/join.html#payment">Dwolla</a> (no processing fee)  
-- <a href="http://enjigo.com/join.html#payment">PayPal</a> ($5.00 processing fee)  
-- <a href="http://enjigo.com/join.html#payment">Bitcoin</a> (no processing fee)  
-- <a href="https://www.eventbrite.com/e/introduction-to-arduino-tickets-9353888733">EventBrite</a> ($7.59 processing fee)  
-- cash or check at the first class (no processing fee)
+  - <a href="http://enjigo.com/join.html#payment">Dwolla</a> (no processing fee)  
+  - <a href="http://enjigo.com/join.html#payment">PayPal</a> ($5.00 processing fee)  
+  - <a href="http://enjigo.com/join.html#payment">Bitcoin</a> (no processing fee)  
+  - <a href="https://www.eventbrite.com/e/introduction-to-arduino-tickets-9353888733">EventBrite</a> ($7.59 processing fee)  
+  - cash or check at the first class (no processing fee)
 
 Please email joel.cpr@gmail.com to RSVP! 
 
