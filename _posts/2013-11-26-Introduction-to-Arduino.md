@@ -22,6 +22,7 @@ The Enjigo Foundation, a Salt Lake City maker community, will be teaching a 4 we
 This will be an all-inclusive “hands-on” mentored course. Come join us and have fun! 
 
 The cost will be $120, plus any processing fees. This includes a 1 month membership to the Maker Space, your very own Arduino, and all materials for the class. Payment can be made via 
+
   - <a href="http://enjigo.com/join.html#payment">Dwolla</a> (no processing fee)
   - <a href="http://enjigo.com/join.html#payment">PayPal</a> ($5.00 processing fee)
   - <a href="http://enjigo.com/join.html#payment">Bitcoin</a> (no processing fee)
@@ -31,6 +32,9 @@ The cost will be $120, plus any processing fees. This includes a 1 month members
 Please email joel.cpr@gmail.com to RSVP! 
 
 The course will be taught by: 
+
 Joel Cooper, PhD, University of Utah professor and owner of CogLens.com 
+
 Jesse Gomes – Software developer for local tech startup 
+
 Tim Anderson – founder of several open source hardware projects
