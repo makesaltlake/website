@@ -31,47 +31,9 @@ $(document).ready(function() {
       <p class="lead">Salt Lake City</p>
     </div>
     <div class="span4">
-      <h4>3424 South Main St.,<br>Salt Lake City, UT</h4>
+      <div align="center">EnjiGo is now <a href="http://makesaltlake.org">Make Salt Lake!</a>. Please click <a href="http://makesaltlake.org">here</a> to go to the new website.</div>
     </div>
   </div>
 </header>
-
-<section>
-
-  <div class="row-fluid photo-row">
-    <div class="span2"><img src="http://farm4.staticflickr.com/3776/9035543541_0acc07f934.jpg"></div>
-    <div class="span2"><img src="http://farm3.staticflickr.com/2809/9031681756_dc0e5b98ac.jpg"></div>
-    <div class="span2"><img src="http://farm6.staticflickr.com/5513/9031628858_ae94934767.jpg"></div>
-    <div class="span2"><img src="http://farm4.staticflickr.com/3806/9029405983_ed2f25f78d.jpg"></div>
-    <div class="span2"><img src="http://farm6.staticflickr.com/5454/9031777594_ac2fd1f87d.jpg"></div>
-    <div class="span2"><img src="http://farm8.staticflickr.com/7437/9031673318_5df216fdf8.jpg"></div>
-  </div>
-  <div class="row-fluid">
-    <div class="span4"><img src="http://farm8.staticflickr.com/7283/8955458901_f3d46d173d.jpg"></div>
-    <div class="span4"><img src="http://farm8.staticflickr.com/7374/8966268968_1188839133.jpg"></div>
-    <div class="span4"><img src="http://farm6.staticflickr.com/5468/8966262392_d391dfc62a.jpg"></div>
-  </div>
-  <div><a href="http://www.flickr.com/photos/canadaduane/sets/72157633845277767/">See more photos</a></div>
-
-  <h2>Classes &amp; Events</h2>
-  <div class="row-fluid">
-    <div class="span12">
-      <div id="calendar"></div>
-      <div align="center"><a href="/calendar.html">See full calendar</a></div>
-    </div>
-  </div>
-
-  <div id="home">
-    <h2>Blog Posts</h2>
-    <ul class="posts">
-      {% for post in site.posts %}
-        <li>
-          <a href="{{ post.url }}">{{ post.title }}</a>
-          {% if post.event-name %}<span class="eventdate">({{ post.event-start | date_to_long_string }})</span>{% endif %}
-          <span class="postdate"> posted {{ post.date | date_to_string }}</span>  
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
 
 </section>     
